@@ -1,1 +1,3 @@
-"# DefectMgt" 
+# DefectMgt
+Defect management repository.
+
