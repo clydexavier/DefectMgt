@@ -1,3 +1,3 @@
-# DefectMgt
-Defect management repository.
+# Upahan DefectMgt
+Defect management repository for the project Upahan.
 
