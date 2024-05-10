@@ -1,0 +1,45 @@
+PU.010.006	v1.0.0 UnitTest Authentication [Login]: Case sensitive password
+
+[Summary]
+	When logging in with email that have different cases it will not continue.
+
+[Precondition]
+ Software version: PU.010.006
+ Software configuration: None
+ Hardware specifications: None
+ Network configuration: Connected to Internet
+
+[Steps to reproduce]
+ 1. Open the app
+ 2. Click the login button
+ 3. Fill the email with characters that have lowercase and uppercase
+ 4. Continue to fill the password
+ 5. Click the login
+
+[Actual results]
+Account will not login
+[Expected results]
+Account should be logged in since emails are not case sensitive
+[Additional information]
+ None
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ None
+ 
+[Severity: How does this problem impact the customer/user?]
+ 1. Specification issue
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+AUTH-0002
+
+[Impact Sizing (in days)]
+ Less than a day
