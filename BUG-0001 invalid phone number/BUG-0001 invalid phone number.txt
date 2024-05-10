@@ -1,0 +1,45 @@
+PU.010.006	v1.0.0 UnitTest Authentication [Signup]: Invalid phone number
+
+[Summary]
+	When registering with number with invalid number of digits it will still continue to signup
+
+[Precondition]
+ Software version: PU.010.006
+ Software configuration: None
+ Hardware specifications: None
+ Network configuration: Connected to Internet
+
+[Steps to reproduce]
+ 1. Open the app
+ 2. Click the signup button
+ 3. Fill the phone number with invalid number of digits
+ 4. Fill the other fields
+ 5. Click signup
+
+[Actual results]
+Account registration succesful
+[Expected results]
+Account should not be registered because of the invalid number of digits in phone number
+[Additional information]
+ None
+
+[Is this Breakage?]
+ No, new implementation
+
+[Previous code tested]
+ None
+ 
+[Severity: How does this problem impact the customer/user?]
+ 1. Specification issue
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+AUTH-0001
+
+[Impact Sizing (in days)]
+ Less than a day
